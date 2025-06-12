@@ -1,0 +1,31 @@
+
+.layer
+    justify-content: center
+    text-align: center
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background: #1e1e1e
+    opacity: .8
+    z-index: 1
+    &__msg
+        width: fit-content
+        height: fit-content
+        padding: 28px
+        //margin-top: 220px
+        border: 2px solid #f1f1f1
+        border-radius: 20px
+        position: fixed
+        margin: 0 auto
+        top: 18%
+        left: -5%
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    &__text
+        font-size: 18px
+        text-transform: uppercase
+    &--none
+        display: none

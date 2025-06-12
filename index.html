@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/resets.css">
+  
+  <title>Parental Clinic Website Assignment</title>
+
+</head>
+
+<body>
+
+  <section class="main">
+
+    <!-- Layer that appears on click -->
+  <div class="layer layer--none">
+    <div class="layer__msg">
+      <p class="text layer__text">Test click. <br> Click anywhere.</p>
+    </div>
+  </div>
+
+  <!-- Fixed nav bar -->
+  <nav class="nav container">
+
+    <!-- Burger menu -->
+      <div class="nav__burger">
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+      </div>
+
+      <!-- Social media -->
+      <div class="nav__media">
+      
+        <a href="#" class="nav__media-link"><img src="assets/images/teenyicons_telegram-outline.png" alt="telegram icon" class="nav__media-img"></a>
+
+        <a href="#" class="nav__media-link"><img src="assets/images/solar_phone-outline.png" alt="phone icon" class="nav__media-img"></a>       
+        
+      </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header container">
+    
+    <h1 class="header__heading heading">Центр Суррогатного Материнства в Москве</h1>
+
+    <ul class="header__list list">
+      <li class="list__item"><p class="text">Преимущества комании 1</p></li>
+      <li class="list__item"><p class="text">Преимущества комании 1</p></li>
+      <li class="list__item"><p class="text">Преимущества комании 1</p></li>
+      <li class="list__item"><p class="text">Преимущества комании 1</p></li>
+    </ul>
+
+    <button class="header__button button button_brown button_big" id="button"><p class="button__text">Получить Консультацию</p></button>
+
+    <p class="text-asteriks">*Материалы сайта предназначены для лиц старше 18 лет</p>
+
+  </header>
+
+  <!-- Form Section -->
+  <section class="form-section container">
+    <h2 class="form-section__heading heading">Стать Родителями</h2>
+    <p class="form-section__text text text_big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, consequuntur.</p>
+
+    <!-- Form -->
+    <form class="form">
+      <input name="name" id="name" type="text" class="form__input" placeholder="Ваше имя" required>
+      <input name="phone" id="phone" type="tel" class="form__input" pattern=""[0-9]{8} placeholder="Контактный номер" required>
+      <input name="email" id="email" type="email" class="form__input" placeholder="Электронная почта" required>
+
+      <button class="button" type="submit"><p class="button__text">Оставить заявку</p></button>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="team container">
+    <h2 class="team__heading heading">Наша Команда</h2>
+    
+    <div class="carousel">
+      <div class="carousel__slide">
+        <img src="assets/images/doctor-img.png" alt="doctor-img 1" class="carousel__img">
+
+        <div class="carousel__content">
+          <h3 class="carousel__heading">Сергей Пуйда</h3>
+          <h4 class="carousel__heading_small"> Гинеколог</h4>
+           <p class="carousel__text">Lorem ipsum dolor sit amet.</p>
+           <p class="carousel__text"><span class="carousel__text_bold">Стаж:</span>33 года</p>
+          <a href="#" class="carousel__link">Смотреть интервью</a>
+        </div>
+
+      </div>
+
+      <div class="carousel__slide">
+        <img src="assets/images/doctor-img.png" alt="doctor-img 2" class="carousel__img">
+
+        <div class="carousel__content">
+          <h3 class="carousel__heading">Сергей Пуйда</h3>
+          <h4 class="carousel__heading_small"> Гинеколог</h4>
+           <p class="carousel__text">Lorem ipsum dolor sit amet.</p>
+           <p class="carousel__text"><span class="carousel__text carousel__text_bold">Стаж:</span>33 года</p>
+          <a href="#" class="carousel__link">Смотреть интервью</a>
+        </div>
+
+      </div>
+
+      <div class="carousel__slide">
+        <img src="assets/images/doctor-img.png" alt="doctor-img 3" class="carousel__img">
+
+        <div class="carousel__content">
+          <h3 class="carousel__heading">Сергей Пуйда</h3>
+          <h4 class="carousel__heading_small"> Гинеколог</h4>
+           <p class="carousel__text">Lorem ipsum dolor sit amet.</p>
+           <p class="carousel__text"><span class="carousel__text_bold">Стаж:</span>33 года</p>
+          <a href="#" class="carousel__link">Смотреть интервью</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- Developed by -->
+  <div class="attribution">
+    <p class="attribution__text text">Coded by Artem Deev</p>
+  </div>
+
+  <!-- Logic -->
+  <script src="logic.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+.button
+    max-width: 100%
+    background: #F2F2F2
+    border: none
+    border-radius: 0.96px
+    padding: 14px
+    cursor: pointer
+    transition: background .3s
+    &:hover
+        background: lighten(#F2F2F2, 10%)
+        transform: scale(1.01)
+    &__text
+        font-family: Manrope
+        font-weight: 500
+        font-size: 14px
+        leading-trim: Cap height
+        line-height: 100%
+        letter-spacing: 0%
+        text-align: center
+        text-transform: uppercase
+        color: #333
+        &_small
+            font-weight: 400
+    &_big
+        padding: 20px
+    &_brown
+        background: #D0B293
+        width: 100%
+        &:hover
+            background: lighten(#D0B293, 10%)
+            transform: scale(1.01)
