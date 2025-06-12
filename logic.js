@@ -8,12 +8,14 @@ window.addEventListener('scroll', () => {
     }
   });
 
+
 //Button on click
 const btnArr = document.querySelectorAll("#button");
 const layer = document.querySelector('.layer');
 
 btnArr.forEach(el => el.addEventListener('click', () => {layer.classList.remove("layer--none");
 }));
+
 
 //Layer to dissapear
 if (layer) {
