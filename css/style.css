@@ -112,7 +112,7 @@
   position: relative;
   padding-top: 293px;
   margin-bottom: 60px;
-  background: linear-gradient(0deg, #1E1E1E 0%, rgba(30, 30, 30, 0) 75%), url("./assets/images/hand-bakcground.png");
+  background: linear-gradient(0deg, #1E1E1E 0%, rgba(30, 30, 30, 0) 75%), url("../assets/images/hand-bakcground.png");
   background-repeat: no-repeat;
 }
 .header__heading {
@@ -249,7 +249,7 @@
   position: relative;
 }
 .carousel__slide::after {
-  content: url("/assets/images/info.png");
+  content: url("../assets/images/info.png");
   position: absolute;
   top: 6.44px;
   left: 8.53px;
